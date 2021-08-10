@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    />
+    <title>Tasks App</title>
+  </head>
+  <body>
+    <main>
+    <section class="start-container">
+      <div class="toggler"><i class="fas fa-star-half-alt"></i></div>
+      <h1>Habit Praiser</h1>
+      <p>
+        Habit Praiser is a simple web application designed to keeps you and your friends accountable for each other by giving priases y'all deserve to reach your goal!
+        Keep track of your habits and earn stars. <br />
+        You got this!
+      </p>
+      <button id="startbtn">START</button>
+    </section>
+
+    <section class="form-container">
+      <div class="toggler"><i class="fas fa-star-half-alt"></i></div>
+      <h1>Habit Praiser</h1>
+      <div class="data-container">
+        <div class="score">
+            <h2>Score:</h2>
+            <span id="score-start"></span>
+            <img src="" class="star"></img>
+    
+        </div>
+
+        
+       
+
+        <button id="exit-btn">X</button>
+       </div>
+
+      <form id="form" action="#">
+        <input type="text" placeholder="Enter your text" class="todo-input"></input>
+        <button id="submit-btn" type="submit">Add</button>
+      </form>
+
+      <div class="todo-container">
+        <ul class="todo-list">
+          
+        </ul>
+      </div>
+
+    </section>
+  </main>
+  <audio id="click-sound" src="audio/sounds_click.mp3"></audio>
+  <audio id="bonus-sound" src="audio/sounds_bonus.wav"></audio>
+  <audio id="minus-sound" src="audio/sounds_minus.wav"></audio>
+  <audio id="minus-sound" src="audio/sounds_win.wav"></audio>
+    <script src="script.js">
+
+  
+
+    </script>
+  </body>
+</html>
